@@ -15,5 +15,5 @@ public interface DataExcelRepository extends JpaRepository<DataExcel, Long> {
 
     List<DataExcel> findDataExcelByFileName(String fileName);
 
-    DataExcel deleteDataExcelByFileName(String fileName);
+    int deleteDataExcelByFileName(String fileName);
 }

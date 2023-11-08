@@ -13,5 +13,5 @@ public interface DataPumpingProgressRepository extends JpaRepository<DataPumping
 
     DataPumpingProgress findDataPumpingProgressByExcelName(String excelName);
 
-    DataPumpingProgress deleteDataPumpingProgressByExcelName(String excelName);
+    int deleteDataPumpingProgressByExcelName(String excelName);
 }
